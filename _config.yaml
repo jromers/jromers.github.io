@@ -1,2 +1,3 @@
 name: Jaap Romers, Cloud Native Projects
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
