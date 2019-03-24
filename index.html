@@ -1,8 +1,21 @@
 ---
 layout: home
-title: Jaap Romers, Cloud Native Projects
+title: "Home"
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Jaap!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
+<p>In the How-to guides I describe the configuration steps to use cloud-native software in an Oracle Linux on-premise deployment. Most of the information is a result of work I did with customers or material I used for workshops or hands-on labs.</p>
+
+<p>All the How-to guides are tested on my demo-infrastructure, they are simple to use and designed to run on a laptop. This is a very convenient setup and a nice way to explore or develop cloud native applications without spending cloud resources. Use the following Oracle Community document to build this infrastructure:
+<ul>
+<li><a href="https://community.oracle.com/docs/DOC-1022800">Use Vagrant and VirtualBox to setup Oracle Container Services for use with Kubernetes</a>
+</ul>
+</p>
 </div><!-- /.blurb -->
+
+<h2>Articles</h2>
+This will be a growing list with How-to guides organized in sub-projects, for now the following guides are available:
+<ul class="posts">
+{% for post in site.posts %}
+<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

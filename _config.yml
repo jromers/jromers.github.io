@@ -1,0 +1,37 @@
+title: "Jaap's Cloud Native Notes"
+author: "Jaap Romers"
+description: "This site contains notes and howtos from my hands-on, cloud native projects at customers"
+
+# Jekyll settings
+permalink: /article/:year/:month/:title/
+paginate: 2                  # number of articles per page, remove to disable pagination
+excerpt_separator: "\n\n\n"  # indicates the end of the excerpt by two blank lines
+
+# Page settings
+show_excerpts: false          # show article previews on the home page instead of headlines
+hide_title: false            # remove site heading in the header
+post_footer: true            # show previous and next links at the end of each post
+date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
+
+# Theme settings
+style: minimal               # choose between "default", "contrast" and "minimal"
+dark_theme: false            # enables dark mode
+
+navigation:                  # (optional) site navigation in the header
+  - index.html
+  - articles.md
+  - about.md
+
+icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
+  envelope: "mailto:jaap.romers@oracle.com"
+  github: "https://github.com/jromers"
+  rss: "/feed.xml"
+
+comments:                    # embed disqus or isso comments
+#  disqus: ""
+#  isso: ""
+
+plugins: 
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-default-layout
