@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Jaap, Github Pages, Launches Site"
 date: 2019-01-20
 ---
