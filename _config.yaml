@@ -1,3 +1,9 @@
 name: Jaap Romers, Cloud Native Projects
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+remote_theme: niklasbuschmann/contrast
+
+plugins:
+  - jekyll-remote-theme
+
+
