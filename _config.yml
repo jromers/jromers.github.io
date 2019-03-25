@@ -25,7 +25,7 @@ navigation:                  # (optional) site navigation in the header
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "mailto:jaap.romers@oracle.com"
   github: "https://github.com/jromers"
-  rss: "/blog/feed.xml"
+  rss: "/blog/atom.xml"
 
 comments:                    # embed disqus or isso comments
 #  disqus: ""
