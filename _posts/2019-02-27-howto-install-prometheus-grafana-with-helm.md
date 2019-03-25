@@ -1,5 +1,5 @@
 ---
-title: "How-to: Install Prometheus & Grafana with Helm for on-premise Oracle Linux and Kubernetes deployments"
+title: "How-to: Install Prometheus &amp; Grafana with Helm for on-premise Oracle Linux and Kubernetes deployments"
 date: 2019-02-27
 ---
 
