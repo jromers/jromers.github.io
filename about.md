@@ -13,6 +13,5 @@ Major companies use open-source software to build cloud applications, infrastruc
 Oracle is a big contributor to open-source technology and open-source software and cloud native tooling is my main focus in the job. 
 
 Feel free to reach out to me !
-Jaap Romers
 
 
