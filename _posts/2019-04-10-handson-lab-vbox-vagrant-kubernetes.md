@@ -51,7 +51,7 @@ When Vagrant and Virtualbox are installed on your computer you are ready to depl
 $ git clone https://github.com/oracle/vagrant-boxes --branch k8s-1.12.5
 $ cd vagrant-boxes/Kubernetes
 ```
-2. Additional Lab exercises files ([Download](/assets/images/kubernetes-hol.zip))
+2. Additional Lab exercises files ([Download](/assets/images/8-kubernetes-hol.zip))
 ```
 $ unzip kubernetes-hol.zip				(will be provided by instructor)
 ```
