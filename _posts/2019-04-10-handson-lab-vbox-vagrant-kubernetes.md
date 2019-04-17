@@ -46,7 +46,7 @@ The software that is needed to run the Lab on a laptop or desktop workstation ca
 ## Lab 1: Build Kubernetes cluster
 
 When Vagrant and Virtualbox are installed on your computer you are ready to deploy the virtual machines for the Lab. Clone (or download) the Oracle Vagrant Boxes repository from Github. These files include workflows to automatically deploy VMs and configure our 3-node Kubernetes cluster.  Start with the following installation steps:
-1. Clone the GitHub repository for Oracle Linux Vagrant boxes (or [download zip-file](https://github.com/oracle/vagrant-boxes/archive/k8s-1.12.5.zip)).
+1. Clone the GitHub repository for Oracle Linux Vagrant boxes (or [download zip-file](https://github.com/jromers/jromers.github.io/archive/master.zip)).
 ```
 $ git clone https://github.com/oracle/vagrant-boxes
 $ cd vagrant-boxes/Kubernetes
