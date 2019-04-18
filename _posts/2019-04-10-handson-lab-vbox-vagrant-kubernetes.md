@@ -449,6 +449,8 @@ Working with storage isn't trivial in Kubernetes. By default all the storage use
 <a name="appendixA"></a>
 ## Appendix A
 
+### Single node Kubernetes server
+
 If your host computer has a lack of resources (disk or memory) then you may skip step 4 and continue with a single-node Kubernetes configuration. In that case you need to change the configuration and allow running application containers on the master server (by default the application containers only run on the worker servers). 
 
 Login to the Kubernetes master server and use the following command to taint the server (run as the vagrant user, not root) :
@@ -457,4 +459,27 @@ $ vagrant ssh master
 $ kubectl taint nodes --all node-role.kubernetes.io/master-
 node/master.vagrant.vm untainted
 ```
+
+### Stop, start, suspend, resume, destroy
+
+If you want to stop your work on the Kubernetes cluster running on your Vagrant VMs and then later on resume your work, the following Vagrant CLI commands are available.
+
+#### Start and Stop
+```
+$ vagrant halt			# shuts down running VM 
+$ vagrant up			# starts up VM, even if it's already configured/created
+```
+
+#### Suspend and resume
+```
+$ vagrant suspend		# suspends running VM, rather than full shutdown
+$ vagrant resume		# resumes VM that was previously suspended
+```
+
+#### Remove VMs
+```
+$ vagrant destroy		# stops VM and destroys all resources 
+```
+
+
 
