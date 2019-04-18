@@ -457,7 +457,6 @@ Login to the Kubernetes master server and use the following command to taint the
 ```
 $ vagrant ssh master
 $ kubectl taint nodes --all node-role.kubernetes.io/master-
-node/master.vagrant.vm untainted
 ```
 
 ### Stop, start, suspend, resume, destroy
