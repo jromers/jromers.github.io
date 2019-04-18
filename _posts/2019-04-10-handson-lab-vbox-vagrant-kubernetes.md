@@ -451,7 +451,7 @@ Working with storage isn't trivial in Kubernetes. By default all the storage use
 
 ### Single node Kubernetes server
 
-If your host computer has a lack of resources (disk or memory) then you may skip step 4 and continue with a single-node Kubernetes configuration. In that case you need to change the configuration and allow running application containers on the master server (by default the application containers only run on the worker servers). 
+If your host computer has a lack of resources (disk or memory) then you may skip step 4 in Lab 1 and continue with a single-node Kubernetes configuration. In that case you need to change the configuration and allow running application containers on the master server (by default the application containers only run on the worker servers). 
 
 Login to the Kubernetes master server and use the following command to taint the server (run as the vagrant user, not root) :
 ```
