@@ -5,13 +5,13 @@ date: 2019-10-23
 ## Introduction
 This is a short article with instructions to use a MySQL database during a Ksplice demo to proof that applications continue to run while you are patching the Linux kernel with Ksplice.
 
-A standard MySQL 8 database is used and data is loaded from a [MySQL Employees Sample Database](https://dev.mysql.com/doc/employee/en/) that is available on [Github](https://github.com/datacharmer/test_db). If you like to know more about Ksplice, check this [Ksplice Demonstration video](https://youtu.be/H9Ga_ndoOwA) or have a look at my [Hands-on Lab: Zero downtime patching with Oracle Linux Ksplice](https://jromers.github.io/article/2019/05/handson-lab-ksplice-offline/).
+A standard MySQL database is used and data is loaded from a [MySQL Employees Sample Database](https://dev.mysql.com/doc/employee/en/) that is available on [Github](https://github.com/datacharmer/test_db). If you like to know more about Ksplice, check this [Ksplice Demonstration video](https://youtu.be/H9Ga_ndoOwA) or have a look at my [Hands-on Lab: Zero downtime patching with Oracle Linux Ksplice](https://jromers.github.io/article/2019/05/handson-lab-ksplice-offline/).
 
 The following video shows the demo running SQL queries on a MySQL database, while patching the Linux kernel without reboot:
 <iframe width="640" height="360" src="https://www.youtube.com/embed/tesrSZIUBxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Prerequisite
-I installed the MySQL 8.0 Database in my Oracle Linux 7.7 server, the procedure on other Oracle Linux versions might be different for the setup of yum channels.
+I installed the MySQL Database in my Oracle Linux server, the procedure on other Oracle Linux versions might be different for the setup of yum channels.
 
 If your server is receiving updates from ULN then you should select the "MySQL 8.0 for Oracle Linux 7 (x86_64)" channel. For the Oracle Linux public yum server you should do:
 ```
