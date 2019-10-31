@@ -1,5 +1,5 @@
 ---
-title: "How-to: Running a cool CLI based demo without typing failures""
+title: "How-to: Running a cool CLI based demo without typing failures"
 date: 2019-10-31
 ---
 ## Introduction
