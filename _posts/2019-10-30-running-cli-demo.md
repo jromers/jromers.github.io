@@ -5,7 +5,7 @@ date: 2019-10-31
 ## Introduction
 You plan to run a cool Ksplice demo for a potential customer, all well prepared, but it miserably failed because you never had typing lessons or started to use the wrong CLI commands.
 
-Big deal or not, even the [world's most famous presenters have failures](https://youtu.be/zNlBLyf39Bk) while running demos. So, continue to read this article and minimize your risk on demo failures !
+Big deal or not, even the [world's most famous presenters have failures](https://youtu.be/zNlBLyf39Bk) while running demos. Continue to read this article and minimize your risk on demo failures !
 
 ## Prerequisite
 I'm using the software below on an Oracle Linux 7 system, it's based on two software packages:
@@ -21,7 +21,7 @@ $ yum localinstall -y pv-1.6.6-1.x86_64.rpm
 If you prefer to use a YUM repository, see [the Pipe Viewer author's instructions](http://www.ivarch.com/programs/yum.shtml) to install Pipe Viewer with a YUM repository.
 
 ## Demo Magic install
-For the Demo Magic script, clone from [Demo Magic Github](https://github.com/paxtonhare/demo-magic):
+The Demo Magic script installation is easy, clone from [Demo Magic Github](https://github.com/paxtonhare/demo-magic) and copy the `demo-magic.sh` file to the destination directory where you run your demo:
 ```
 $ git clone https://github.com/paxtonhare/demo-magic.git
 $ mkdir $HOME/demo
@@ -34,7 +34,7 @@ $ unzip master.zip
 $ mkdir $HOME/demo
 $ cp demo-magic/demo-magic.sh $HOME/demo/demo-magic.sh
 ```
-I'm not going to to explain the Demo Magic script, you can read it in the README file, but the most important features are:
+I'm not going to to explain the Demo Magic script, you can read it in the README file, but the most important features are (copied from README):
 * Simulates typing. It looks like you are actually typing out commands
 * Allows you to actually run commands or pretend to do so.
 * Can hide commands from presentation. Useful for behind the scenes stuff that doesn't need to be shown.
@@ -115,4 +115,8 @@ $ chmod 755 ksplice.sh
 $ ./ksplice.sh
 ```
 ## Example Ksplice Demo Magic
+Play the screen recording and see how the Ksplice Demo Magic script works in real time:
+
+## Credits
+Recently I did a Ksplice presentation for Oracle consultants and my co-presenter [Harald Van Breederode](https://prutser.wordpress.com/) did the live demo. Always good to see colleagues doing demos and this one inspired me to write the Ksplce Demo Magic script.
 <script id="asciicast-278117" src="https://asciinema.org/a/278117.js" async></script>
