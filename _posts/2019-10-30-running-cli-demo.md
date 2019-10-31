@@ -11,8 +11,11 @@ Big deal or not, even the [world's most famous presenters have failures](https:/
 I'm using the software below on an Oracle Linux 7 system, it's based on two software packages:
 * [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml) - is a terminal-based tool for monitoring the progress of data through a pipeline.
 * [Demo Magic](https://github.com/paxtonhare/demo-magic) - a handy shell script that enables you to write repeatable demos in a bash environment.
+
 Everything is executed with standard Unix user permissions. Specific Ksplice commands are used with sudo, the user running the demo should have sudo permissions.
+
 ## Pipe Viewer install
+
 Download and install the pv-package on your Oracle Linux server:
 ```
 $ wget http://www.ivarch.com/programs/rpms/pv-1.6.6-1.x86_64.rpm
