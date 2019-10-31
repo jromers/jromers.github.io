@@ -119,4 +119,4 @@ Play the screen recording and see how the Ksplice Demo Magic script works in rea
 <script id="asciicast-278117" src="https://asciinema.org/a/278117.js" async></script>
 
 ## Credits
-Recently I did a Ksplice presentation for Oracle consultants and my co-presenter [Harald Van Breederode](https://prutser.wordpress.com/) did the live demo. Always good to see colleagues doing demos and this one inspired me to write the Ksplce Demo Magic script.
+Recently I did a Ksplice presentation for Oracle consultants and my co-presenter [Harald Van Breederode](https://prutser.wordpress.com/) did the live demo. Always good to see colleagues doing demos and this one inspired me to write the Ksplice Demo Magic script.
