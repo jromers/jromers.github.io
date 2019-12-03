@@ -15,4 +15,3 @@ Oracle is a big contributor to open-source technology and open-source software a
 <p>
 Feel free to reach out to me !
 
-</article>
