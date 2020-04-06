@@ -1,5 +1,5 @@
 ---
-title: "Ansible with Oracle Linux Virtualization Manager (OLVM)"
+title: "How-to: Ansible with Oracle Linux Virtualization Manager (OLVM)"
 date: 2020-04-06
 ---
 ## Introduction
