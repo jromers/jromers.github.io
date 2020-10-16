@@ -14,4 +14,4 @@ For this lab configuration there are the following pre-requisites:
 
 ## Installation
 
-This article has been moved to the [Oracle Linux KVM and Oracle Linux Virtualization Manager](https://community.oracle.com/docs/DOC-1037000) community website.
+This article has been moved to the [Oracle Linux and Virtualization Product Manager](https://blogs.oracle.com/scoter/ansible-with-oracle-linux-virtualization-manager-olvm) Blog.
