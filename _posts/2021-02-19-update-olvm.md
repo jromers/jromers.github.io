@@ -15,7 +15,7 @@ article I describe the steps to do a complete update of the cluster.
 
 For a complete picture, the below diagram shows an architecture in which a self-hosted engine (OLVM manager) is deployed as virtual machine in the same environment it manages. The OLVM manager is highly available, if the KVM host gets unresponsive the OLVM manager will be restarted on one of the other KVM hosts.
 
-![SHE architecture drawing](../assets/images/2021-02-19-olvm-she.png)
+![SHE architecture drawing](/assets/images/2021-02-19-olvm-she.png)
 
 During the software update, the cluster remains available and there is no 
 downtime of the virtual machine guests in the cluster. But we should disable 
@@ -62,11 +62,11 @@ We will perform an update of each individual KVM compute host (see later for a m
 
 In the OLVM Administration Portal, go to Compute and click Hosts. If there are updates available you’ll see an update icon in the 2nd column of each KVM-host, see the screenshot.
 
-![Update notification icon](../assets/images/2021-02-19-olvm-kvm1.png)
+![Update notification icon](/assets/images/2021-02-19-olvm-kvm1.png)
 
 Select the host and in the Action items choose Upgrade option including reboot. Alternative: Select the Installation drop-down menu and choose Upgrade option including reboot.
 
-![Update action item](../assets/images/2021-02-19-olvm-kvm2.png)
+![Update action item](/assets/images/2021-02-19-olvm-kvm2.png)
 
 If there are virtual machines running on the KVM compute host they will be migrated to another KVM compute host in the cluster, the new updates will be installed and the KVM compute host will be rebooted. After some time you will see the Status of the KVM compute host will be Up again. Notice, also the little icon to notify us for updates is removed from the KVM compute host’s table entry.
 
