@@ -68,7 +68,7 @@ Select the host and in the **Action items** choose **Upgrade** including the reb
 
 ![Update action item](/assets/images/2021-02-19-olvm-kvm2.png)
 
-If there are virtual machines running on the KVM compute host they will be migrated to another KVM compute host in the cluster, the new updates will be installed and the KVM compute host will be rebooted. After some time you will see the Status of the KVM compute host is **Up** again. Notice, also the little icon to notify us for updates is removed from the KVM compute host’s table entry.
+If there are virtual machines running on the KVM compute host they will be migrated to another KVM compute host in the cluster, the new updates will be installed and the KVM compute host will be rebooted. After some time you will see the Status of the KVM compute host is **Up** again. Notice, also the little icon to notify us for updates disappeared from the KVM compute host’s table entry.
 
 Repeat this step for each KVM compute host in the cluster.
 
